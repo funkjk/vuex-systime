@@ -1,23 +1,26 @@
 {
   "name": "vuex-systime",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vuex plugin which provide reactive system time property which calculate every N second.",
   "author": "funaki_kenji <kenjift@gmail.com>",
-  "private": true,
+  "license": "MIT",
+  "main": "dist/vuex-systime.js",
+  "private": false,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config examples/webpack.dev.conf.js",
-    "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
-    "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
-    "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funkjk/vuex-systime"
   },
   "dependencies": {
-    "lodash": "^4.17.19",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
+    "lodash": "^4.17.19",
     "axios": "^0.19.2",
     "moment": "^2.27.0",
     "vue": "^2.5.2",
@@ -73,10 +76,9 @@
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.6.0",
-    "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
   },
   "engines": {
     "node": ">= 6.0.0",
