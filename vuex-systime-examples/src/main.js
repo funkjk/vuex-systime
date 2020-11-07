@@ -3,13 +3,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import App from './App'
-import datetime from '../src/vuex-systime.js'
+import VuexSystime from 'vuex-systime'
 
 Vue.config.productionTip = false
 Vue.use(Vuex)
 
-const dt1 = datetime({'moduleName': 'dt1', cutoffTime: 1000 * 60})
-const dt2 = datetime({'moduleName': 'dt2'})
+const dt1 = VuexSystime({'moduleName': 'dt1', cutoffTime: 1000 * 60})
+const dt2 = VuexSystime({'moduleName': 'dt2'})
 
 const store = new Vuex.Store(
   {
