@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "lodash": "^4.17.19",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "moment": "^2.27.0",
     "vue": "^2.5.2",
     "autoprefixer": "^7.1.2",
