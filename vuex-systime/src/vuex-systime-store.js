@@ -1,6 +1,6 @@
 
 export const moduleParameter = {}
-export const systemDatetimeStore = {
+export const systemDatetimeStore = () => { return {
   namespaced: true,
   state: {
     moduleName: null,
@@ -43,4 +43,5 @@ export const systemDatetimeStore = {
       state.localTime = time
     }
   }
+}
 }

@@ -2,7 +2,7 @@ import {moduleParameter, systemDatetimeStore} from './vuex-systime-store'
 
 export default function VuexSystemDatetime (param) {
   return store => {
-    const datetimeStore = JSON.parse(JSON.stringify(systemDatetimeStore))
+    const datetimeStore = systemDatetimeStore()
 
     let moduleName = 'systime'
     const attribute = Object.assign({}, param)

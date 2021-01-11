@@ -1,6 +1,6 @@
 {
   "name": "vuex-systime",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vuex plugin which provide reactive system time property which calculate every N second.",
   "author": "funaki_kenji <kenjift@gmail.com>",
   "license": "MIT",
