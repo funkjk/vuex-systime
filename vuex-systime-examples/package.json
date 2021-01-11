@@ -17,8 +17,7 @@
     "lodash": "^4.17.19",
     "axios": "^0.19.2",
     "moment": "^2.27.0",
-    "vue": "^2.5.2",
-    "vuex-systime": "^1.0.0"
+    "vue": "^2.5.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

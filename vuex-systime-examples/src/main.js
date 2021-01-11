@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import App from './App'
-import VuexSystime from 'vuex-systime'
+import VuexSystime from '../../vuex-systime/'
 
 Vue.config.productionTip = false
 Vue.use(Vuex)
